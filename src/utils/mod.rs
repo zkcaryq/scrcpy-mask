@@ -23,7 +23,7 @@ use crate::{
     web::ws::WebSocketNotification,
 };
 
-pub const IDENTIFIER: &str = "com.akichase.scrcpy-mask";
+pub const IDENTIFIER: &str = "com.akichase.scrcpy-mask-uhid";
 const VIDEO_BUFFER_POOL_LIMIT: usize = 12;
 
 pub fn relate_to_data_path<P>(segments: P) -> PathBuf

@@ -78,7 +78,7 @@ fn main() {
             })
             .set(WindowPlugin {
                 primary_window: Some(Window {
-                    title: "scrcpy-mask".into(),
+                    title: "scrcpy-mask UHID".into(),
                     has_shadow: false,
                     transparent: true, // for windows: https://github.com/bevyengine/bevy/issues/7544
                     decorations: false,
